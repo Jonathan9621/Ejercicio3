@@ -1,9 +1,12 @@
 # Area circulo, cuadrado, triangulo
 
-print("Calcular Areas")
-print("1. Triangulo")
-print("2. Circulo")
-print("3. Cuadrado")
+def menu():
+    print("Calcular Areas")
+    print("1. Triangulo")
+    print("2. Circulo")
+    print("3. Cuadrado")
+    
+
 
 def areaCirculo():
     radio = float(input("Ingrese el radio del circulo"))
@@ -20,20 +23,29 @@ def area_triangulo():
 def area_cuadrado():
     lado = float(input("Ingrese el lado: "))
     areaCuadrado = lado * lado 
-    print("El area del triangulo es: ", areaCuadrado)
+    print("El area del cuadrado es: ", areaCuadrado)
 
-num = int(input("Digite un numero: "))
 
-if num == 1:
-   area_triangulo()
 
-elif num == 2:
-    area = areaCirculo()
-    print("El area del circulo es ", area )
 
-elif num == 3:
-    area_cuadrado()
-else:
-    print(" ")
+
+respuesta = "si"
+
+while respuesta == "si":
+    menu()
+    num = int(input("Digite un numero: "))
+    if num == 1:
+        area_triangulo()
+
+    elif num == 2:
+        area = areaCirculo()
+        print("El area del circulo es ", area )
+
+    elif num == 3:
+        area_cuadrado()
+    else:
+        print(" ")
+
+    respuesta = input("Digite si para continuar o no para terminar: ")
 
 
