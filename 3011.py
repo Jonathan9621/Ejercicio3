@@ -44,7 +44,7 @@ while respuesta == "si":
     elif num == 3:
         area_cuadrado()
     else:
-        print(" ")
+        print("El numero ingresado esta incorrecto. ")
 
     respuesta = input("Digite si para continuar o no para terminar: ")
 
