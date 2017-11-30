@@ -29,6 +29,7 @@ if num == 1:
 
 elif num == 2:
     area = areaCirculo()
+    print("El area del circulo es ", area )
 
 elif num == 3:
     area_cuadrado()
