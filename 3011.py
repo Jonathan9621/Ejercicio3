@@ -6,12 +6,12 @@ def menu():
     print("2. Circulo")
     print("3. Cuadrado")
 
-def areaCirculo():
+def areaCirculo(radio):
     radio = float(input("Ingrese el radio del circulo"))
     area = 3.1416*radio
     return area
     
-def area_triangulo():
+def area_triangulo(base, al):
      base = float(input("Ingrese la base: "))
      altura = float(input("Ingrese la altura: "))
      base_altura = base*altura
