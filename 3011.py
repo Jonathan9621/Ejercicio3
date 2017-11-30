@@ -34,6 +34,6 @@ elif num == 2:
 elif num == 3:
     area_cuadrado()
 else:
-    print("El numero ingresado esta incorrecto. ")
+    print(" ")
 
 
