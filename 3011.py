@@ -5,8 +5,6 @@ def menu():
     print("1. Triangulo")
     print("2. Circulo")
     print("3. Cuadrado")
-    
-
 
 def areaCirculo():
     radio = float(input("Ingrese el radio del circulo"))
@@ -24,9 +22,6 @@ def area_cuadrado():
     lado = float(input("Ingrese el lado: "))
     areaCuadrado = lado * lado 
     print("El area del cuadrado es: ", areaCuadrado)
-
-
-
 
 
 respuesta = "si"
