@@ -17,6 +17,11 @@ def area_triangulo():
      area_triangulo = base_altura/2
      print("El area del triangulo es: ", area_triangulo)
 
+def area_cuadrado():
+    lado = float(input("Ingrese el lado: "))
+    areaCuadrado = lado * lado 
+    print("El area del triangulo es: ", areaCuadrado)
+
 num = int(input("Digite un numero: "))
 
 if num == 1:
@@ -26,7 +31,7 @@ elif num == 2:
     area = areaCirculo()
 
 elif num == 3:
-
+    area_cuadrado()
 else:
     print("El numero ingresado esta incorrecto. ")
 
