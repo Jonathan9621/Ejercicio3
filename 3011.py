@@ -1,21 +1,7 @@
-# Area circulo, cuadrado, triangulo
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Nov 30 09:20:21 2017
 
-print("Calcular Areas")
-print("1. Triangulo")
-print("2. Circulo")
-print("3. Cuadrado")
-
-num = int(input("Digite un numero: "))
-if num == 1:
-    base = float(input("Ingrese la base: "))
-    altura = float(input("Ingrese la altura: "))
-    base_altura = base*altura
-    area_triangulo = base_altura/2
-
-elif num == 2:
-
-elif num == 3:
-
-else:
-
+@author: pc1-21-01-22B-03
+"""
 
